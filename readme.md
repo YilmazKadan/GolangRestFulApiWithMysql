@@ -13,3 +13,6 @@ github.com/go-sql-driver/mysql
 3. **go-sql-driver/mysql** MYSQL sürücüsü
 
 
+## Yapılandırma
+
+Yapılandırma için main.go dosyasına gidip kendi veritabanı bilgilerinizi girmeniz lazım.
