@@ -1,4 +1,4 @@
-module yilmaz.com/restful
+module github.com/restful
 
 go 1.18
 
