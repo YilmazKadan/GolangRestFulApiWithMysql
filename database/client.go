@@ -4,6 +4,7 @@ import (
 	"log"
 
 	"github.com/jinzhu/gorm"
+	"github.com/restful/entity"
 )
 
 // Bağlantı değişkeni CRUD işlemlerini yapabilmek için
@@ -21,4 +22,10 @@ func Connect(connectionString string) error {
 	log.Println("Bağlantı başarılı bir şekilde gerçekleşti")
 
 	return nil
+}
+
+// Bu migrate fonksiyonu sayesinde tablomuzu belirlenen structerdaki gibi oluşturuyoruz.
+func Migrate(table *entity.Person) {
+	Connector.Table("Uyeler").AutoMigrate(&table)
+	log.Println("Table migrated")
 }

@@ -16,3 +16,7 @@ github.com/go-sql-driver/mysql
 ## Yapılandırma
 
 Yapılandırma için main.go dosyasına gidip kendi veritabanı bilgilerinizi girmeniz lazım.
+
+**go run main.go** komutu ile serveri başlatabilirsiniz.
+Bu işlemlerin ardından tarayıcınızdan veya Postman benzeri araçlardan API testlerini ve denemelerini yapabilirsiniz.
+
